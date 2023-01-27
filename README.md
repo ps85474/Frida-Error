@@ -5,11 +5,16 @@ Use this link to download frida server https://github.com/frida/frida/releases/d
 Extract this frida file and push to android device.
 
 use below commands to run frida server:
->adb shell
->su
->cd /data/local/tmp
->chmod +x frida-*
->./frida-server-* &
+  
+  >adb shell
+  
+  >su
+  
+  >cd /data/local/tmp
+  
+  >chmod +x frida-*
+  
+  >./frida-server-* &
 
 
 # Resolve Objection/Frida gadget error (Windows/Linux):
@@ -19,10 +24,12 @@ Use this link to download frida gadget https://github.com/frida/frida/releases/d
 Extract the file and rename to gadget-android-arm64.so
 
 Linux:
+
 Go to home directory and nevigate to .cache folder and create a new folder with name "frida" and paste the "gadget-android-arm64.so" file there and reboot the system.
 
 
 Windows:
+
 Login with administrator and navigate to C:\Users\Roy\AppData\Local\Microsoft\Windows\INetCache> and create folder with name "frida" and paste the "gadget-android-arm64.so" file there and restart the system.
 
 
